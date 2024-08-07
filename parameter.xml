@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <parameter name="i" value="8"></parameter>
+    <parameter name="j" value="8"></parameter>
+    <test thread-count="2" name="Parameterstest">
+        <classes>
+            <class name ="TestNg.Testng_Parameters"/>
+        </classes>
+    </test>
+
+</suite>

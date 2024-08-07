@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/IdeaProjects/SeleniumMaven2/src/TestNg/GROUP_BY.java">
+        <classes>
+            <class name="TestNg.GROUP_BY">
+                <methods>
+                    <include name="WIPRO"/>
+                    <include name="TCS"/>
+                    <include name="HONDA"/>
+                    <include name="HERO"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
